@@ -1,7 +1,7 @@
 {
-  "name": "npm-typescript-package",
+  "name": "more-http-status-codes",
   "version": "1.0.0",
-  "description": "description",
+  "description": "Package containing all official status codes with detailed JSDocs",
   "main": "dist/js/index.js",
   "types": "dist/types/index.d.ts",
   "files": [
@@ -22,21 +22,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "link/to/repo"
+    "url": "git+https://github.com/CodeRigged/more-http-status-codes.git"
   },
   "keywords": [
-    "keywords",
-    "related",
-    "to",
-    "package"
+    "http",
+    "status",
+    "codes",
+    "jsdocs",
+    "utility",
+    "node",
+    "typescript",
+    "418"
   ],
-  "author": "name",
-  "license": "license",
+  "author": "Timothy Antonovics",
+  "license": "MIT",
   "bugs": {
-    "url": "link/to/issues"
+    "url": "https://github.com/CodeRigged/more-http-status-codes/issues"
   },
-  "homepage": "link/to/website/or/git-page",
+  "homepage": "https://github.com/CodeRigged/more-http-status-codes/blob/main/README.md",
   "devDependencies": {
+    "@types/node": "^14.14.37",
     "@typescript-eslint/eslint-plugin": "^4.14.2",
     "@typescript-eslint/parser": "^4.14.2",
     "eslint": "^7.19.0",
