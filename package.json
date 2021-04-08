@@ -1,0 +1,49 @@
+{
+  "name": "npm-typescript-package",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "dist/js/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/*.js",
+    "types/*.d.ts"
+  ],
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint -c .eslintrc.js --ext .ts src",
+    "build": "tsc",
+    "start": "node .",
+    "test": "npm run format && npm run lint && npm run build && npm run start",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "link/to/repo"
+  },
+  "keywords": [
+    "keywords",
+    "related",
+    "to",
+    "package"
+  ],
+  "author": "name",
+  "license": "license",
+  "bugs": {
+    "url": "link/to/issues"
+  },
+  "homepage": "link/to/website/or/git-page",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {}
+}
