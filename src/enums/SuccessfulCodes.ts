@@ -1,9 +1,9 @@
 /**
  * Enum for successful HTTP response status codes.
  *
- * See {@link https://tools.ietf.org/html/rfc3229 rfc 3229},
- * {@link https://tools.ietf.org/html/rfc7231 rfc 7231} or
- * {@link https://tools.ietf.org/html/rfc7233 rfc 7233} for more information.
+ * See {@link https://tools.ietf.org/html/rfc3229 RFC 3229},
+ * {@link https://tools.ietf.org/html/rfc7231 RFC 7231} or
+ * {@link https://tools.ietf.org/html/rfc7233 RFC 7233} for more information.
  *
  * @readonly
  * @enum {number} 2xx successful – the request was successfully received, understood, and accepted.

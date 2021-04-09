@@ -1,8 +1,8 @@
 /**
  * Enum for WebDAV HTTP response status codes.
  *
- * See {@link https://tools.ietf.org/html/rfc2518 rfc 2518} or
- * {@link https://tools.ietf.org/html/rfc5842 rfc 5842} for more information.
+ * See {@link https://tools.ietf.org/html/rfc2518 RFC 2518} or
+ * {@link https://tools.ietf.org/html/rfc5842 RFC 5842} for more information.
  *
  * @readonly
  * @enum {number} xxx – the request may be from any category.

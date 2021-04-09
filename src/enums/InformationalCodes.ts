@@ -1,8 +1,8 @@
 /**
  * Enum for informational HTTP response status codes.
  *
- * See {@link https://tools.ietf.org/html/rfc7231 rfc 7231}
- * or {@link https://tools.ietf.org/html/rfc8297 rfc 8297} for more information.
+ * See {@link https://tools.ietf.org/html/rfc7231 RFC 7231}
+ * or {@link https://tools.ietf.org/html/rfc8297 RFC 8297} for more information.
  *
  * @readonly
  * @enum {number} 1xx informational response – the request was received, continuing process.

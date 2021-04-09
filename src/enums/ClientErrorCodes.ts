@@ -1,14 +1,14 @@
 /**
  * Enum for client error HTTP response status codes.
  *
- * See {@link https://tools.ietf.org/html/rfc7231 rfc 7231},
- * {@link https://tools.ietf.org/html/rfc7232 rfc 7232},
- * {@link https://tools.ietf.org/html/rfc7233 rfc 7233},
- * {@link https://tools.ietf.org/html/rfc7235 rfc 7235},
- * {@link https://tools.ietf.org/html/rfc7540 rfc 7540},
- * {@link https://tools.ietf.org/html/rfc6585 rfc 6585},
- * {@link https://tools.ietf.org/html/rfc7725 rfc 7725} or
- * {@link https://tools.ietf.org/html/rfc8470 rfc 8470} for more information.
+ * See {@link https://tools.ietf.org/html/rfc7231 RFC 7231},
+ * {@link https://tools.ietf.org/html/rfc7232 RFC 7232},
+ * {@link https://tools.ietf.org/html/rfc7233 RFC 7233},
+ * {@link https://tools.ietf.org/html/rfc7235 RFC 7235},
+ * {@link https://tools.ietf.org/html/rfc7540 RFC 7540},
+ * {@link https://tools.ietf.org/html/rfc6585 RFC 6585},
+ * {@link https://tools.ietf.org/html/rfc7725 RFC 7725} or
+ * {@link https://tools.ietf.org/html/rfc8470 RFC 8470} for more information.
  *
  * @readonly
  * @enum {number} 4xx client error – the request contains bad syntax or cannot be fulfilled.

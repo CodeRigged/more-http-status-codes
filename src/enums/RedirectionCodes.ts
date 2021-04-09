@@ -1,9 +1,9 @@
 /**
  * Enum for redirection HTTP response status codes.
  *
- * See {@link https://tools.ietf.org/html/rfc7231 rfc 7231},
- * {@link https://tools.ietf.org/html/rfc7232 rfc 7232},
- * {@link https://tools.ietf.org/html/rfc7538 rfc 7538} or for more information.
+ * See {@link https://tools.ietf.org/html/rfc7231 RFC 7231},
+ * {@link https://tools.ietf.org/html/rfc7232 RFC 7232},
+ * {@link https://tools.ietf.org/html/rfc7538 RFC 7538} or for more information.
  *
  * @readonly
  * @enum {number} 3xx redirection – further action needs to be taken in order to complete the request.
