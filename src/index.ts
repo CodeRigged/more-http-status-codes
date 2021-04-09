@@ -43,7 +43,7 @@ const httpStatusCodes = Object.keys(HttpStatusCodes) as (keyof typeof HttpStatus
  * collection of all the standard HTTP response status codes and compares it to the ones defined
  * in this module.
  *
- * @param supported if false, this function will return all unsupported HTTP response status codes
+ * @param supported if false, this function will return all unsupported codes by node
  * @returns array of strings
  */
 const listSupportedCodesByNode = (supported = true): string[] => {
@@ -60,7 +60,18 @@ const listSupportedCodesByNode = (supported = true): string[] => {
             },
             { supported: [] as string[], unsupported: [] as string[] },
         );
-    return supported ? codes.supported : codes.unsupported;
+
+    if (supported) {
+        const supportedCodes = codes.supported;
+        console.log(supportedCodes);
+
+        return supportedCodes;
+    } else {
+        const unsupportedCodes = codes.unsupported;
+        console.log(unsupportedCodes);
+
+        return unsupportedCodes;
+    }
 };
 
 // utility functions
